@@ -19,9 +19,9 @@ body
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 5px solid red; */
   overflow: hidden;
   perspective: 10px;
+  animation: zooming 10s ease-in-out infinite;
 }
 .frame {
   width: 900px;
@@ -35,6 +35,7 @@ body
   0px 0px 60px #ff00c8,
   inset 0px 0px 60px #ff00c8;
   filter:brightness(1.5) contrast(3);
+  animation: breathing 3s ease-out infinite;
 }
 .frame:nth-child(1) {
   transform: rotate(40deg) translateY(0px) translateZ(0px);
@@ -115,4 +116,15 @@ body
   transform: rotate(40deg) translateY(700px) translateZ(-140px);
   opacity: 0.1;
   animation-delay: 2.9s;
+}
+
+@keyframes breathing {
+  0% {filter: brightness(1.5) contrast(3);}
+  50% {filter: brightness(1.1) contrast(2);}
+  100% {filter: brightness(1.5) contrast(3);}
+}
+@keyframes zooming {
+  0% {perspective: 45px;}
+  50% {perspective: 50px;}
+  100% {perspective: 45px;}
 }

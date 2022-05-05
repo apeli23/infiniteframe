@@ -16,7 +16,6 @@ export default function Home() {
       <div className="frame"></div>
       <div className="frame"></div>
       <div className="frame"></div>
-
     </div>
   )
 }
