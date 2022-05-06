@@ -332,4 +332,4 @@ Ease the trick by gradualy increasing animation delay in each of them like below
 
 ```
 
-With the aniomation complete, we can now capture the frame at any point and upload the caption to Cloudinary
+With the animation complete, we can now capture the frame at any point and upload the caption to Cloudinary

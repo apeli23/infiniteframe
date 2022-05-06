@@ -8,7 +8,9 @@ export default function Home() {
   const [userprofile, takeScreenshot] = useScreenshot();
 
   const captionRef = useRef();
-  const captionHandler = async () => {
+
+  
+  const captionHandler = async () => {//capture the frame for cloudinary upload
     console.log(captionRef.current)
     await takeScreenshot(captionRef.current).then(function(caption) {
       try {
