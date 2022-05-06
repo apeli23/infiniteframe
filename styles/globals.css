@@ -1,3 +1,4 @@
+html
 body {
   padding: 0;
   margin: 0;
@@ -10,13 +11,6 @@ body {
   box-sizing: border-box;
 }
 
-.navbar {
-  background: #FFFF;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
 .container {
   background: linear-gradient(90deg, rgba(0, 41, 69, 1) 6%, rgb(53, 0, 56) 29%, rgba(7, 33, 71, 1) 84%);
@@ -186,3 +180,4 @@ button:hover
   transition: 1s;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
