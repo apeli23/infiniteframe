@@ -14,6 +14,7 @@ export default function Home() {
     console.log(captionRef.current)
     await takeScreenshot(captionRef.current).then(function(caption) {
       try {
+        console.log(caption)
         fetch('/api/upload', {
           method: 'POST',
           body: JSON.stringify({ data: caption }),

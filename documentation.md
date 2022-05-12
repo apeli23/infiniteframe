@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This article demonstrates Nextjs framework an be used to generate a rich css and html infinite frame.
+This article demonstrates Nextjs framework can be used to generate a rich css and HTML infinite frame.
 
 ## Codesandbox
 
@@ -22,15 +22,16 @@ Entry-level javascript and React/Nextjs knowledge.
 
 ## Setting Up the Sample Project
 
+
 In your frame, create a new nextjs app: `npx create-next-app infiniteframe`.
 Head to your root directory `cd infinite frame`
  
 
 We will begin by setting up [Cloudinary](https://cloudinary.com/?ap=em) in the backend.  
 
-Create or log into your own cloudinary account through this [link](https://cloudinary.com/console). Cloudinary will provide you with a dashboard containing enviroment variable to intergrate to your project.
+Create or log into your cloudinary account through this [link](https://cloudinary.com/console). Cloudinary will provide you with a dashboard containing environment variables to integrate into your project.
 
-Start by including `cloudinary` in your project dependancies `npm install cloudinary`.
+Start by including `cloudinary` in your project dependencies `npm install cloudinary`.
 
 Create a file named `.env.local` in your root directory and paste the following code.
 
@@ -121,7 +122,7 @@ Add the following to your `styles/global.css`
 }
 ```
 
-We have created a frame width and height of 900px. Set the postition to absolute and a border radius of 50px.
+We have created a frame width and height of 900px. Set the position to absolute and a border-radius of 50px.
 
 ![frame](https://res.cloudinary.com/dogjmmett/image/upload/v1651798008/frame_fkodtc.png "frame")
 
@@ -269,7 +270,7 @@ Here is the result:
 
 ![keyFramed](https://res.cloudinary.com/dogjmmett/image/upload/v1651798751/keyframed_pnmbgp.png "keyFramed")
 
-Lets make it look better. Set the perspective to be rendered as 2D of 50px and also increase the brightness and contrast of the shadow for aesthetic.
+Let's make it look better. Set the perspective to be rendered as 2D of 50px and also increase the brightness and contrast of the shadow for aesthetic.
 
 ```
 .container {
@@ -332,4 +333,4 @@ Ease the trick by gradualy increasing animation delay in each of them like below
 
 ```
 
-With the animation complete, we can now capture the frame at any point and upload the caption to Cloudinary
+With the animation complete, we can now capture the frame at any point and upload the caption to Cloudinary. Ensure to go through the article to enjoy the experience.
